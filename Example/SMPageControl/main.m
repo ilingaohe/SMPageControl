@@ -9,10 +9,15 @@
 #import <UIKit/UIKit.h>
 
 #import "SMAppDelegate.h"
+#import "HHAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
 	@autoreleasepool {
-	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([SMAppDelegate class]));
+    if (HH_CUSTOM) {
+      return UIApplicationMain(argc, argv, nil, NSStringFromClass([HHAppDelegate class]));
+    }else{
+      return UIApplicationMain(argc, argv, nil, NSStringFromClass([SMAppDelegate class]));
+    }
 	}
 }

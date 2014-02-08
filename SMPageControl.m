@@ -55,6 +55,7 @@ static SMPageControlStyleDefaults _defaultStyleForSystemVersion;
 	CGFloat				_measuredIndicatorWidth;
 	CGFloat				_measuredIndicatorHeight;
 	CGImageRef			_pageImageMask;
+  BOOL _shouldAdjustPageRect;
 }
 
 @synthesize pageNames = _pageNames;
@@ -206,6 +207,10 @@ static SMPageControlStyleDefaults _defaultStyleForSystemVersion;
 	
 	self.pageRects = pageRects;
 	
+  //调整PageRect的点击区域 by ilingaohe
+  if (_shouldAdjustPageRect) {
+    [self adjustPageRect];
+  }
 }
 
 - (CGFloat)_leftOffset
@@ -723,5 +728,21 @@ static SMPageControlStyleDefaults _defaultStyleForSystemVersion;
 		self.accessibilityValue = accessibilityValue;
 	}
 }
-
+#pragma mark -- Custom by ilingaohe
+- (void)setAdjustPageRectFlag:(BOOL)shoudAdjustPageRect
+{
+  _shouldAdjustPageRect = shoudAdjustPageRect;
+}
+- (void)adjustPageRect
+{
+  CGFloat totalPageWidth = self.frame.size.width - self.indicatorMargin * 2;
+  CGFloat perPageWidth = floorf(totalPageWidth / self.numberOfPages);
+  NSMutableArray *modifiedPageRects = [NSMutableArray array];
+  for (NSValue *pageRectValue in self.pageRects) {
+    CGRect pageRect = [pageRectValue CGRectValue];
+    CGRect modifiedPageRect = CGRectMake(pageRect.origin.x+pageRect.size.width/2-perPageWidth/2, 0, perPageWidth, self.frame.size.height);
+    [modifiedPageRects addObject:[NSValue valueWithCGRect:modifiedPageRect]];
+  }
+  self.pageRects = [NSArray arrayWithArray:modifiedPageRects];
+}
 @end

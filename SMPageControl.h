@@ -73,4 +73,8 @@ typedef NS_ENUM(NSUInteger, SMPageControlTapBehavior) {
 - (void)setName:(NSString *)name forPage:(NSInteger)pageIndex;
 - (NSString *)nameForPage:(NSInteger)pageIndex;
 
+
+#pragma mark -- Custom by ilingaohe
+- (void)setAdjustPageRectFlag:(BOOL)shoudAdjustPageRect;
+- (void)adjustPageRect;
 @end 

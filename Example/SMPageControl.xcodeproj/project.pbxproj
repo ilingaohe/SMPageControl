@@ -31,6 +31,16 @@
 		3D9CDAAB1629EA9100B95512 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CDAAA1629EA9100B95512 /* SMViewController.m */; };
 		3D9CDAAE1629EA9100B95512 /* SMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CDAAC1629EA9100B95512 /* SMViewController_iPhone.xib */; };
 		3D9CDAB11629EA9100B95512 /* SMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CDAAF1629EA9100B95512 /* SMViewController_iPad.xib */; };
+		C0C5984818A6294B00D36691 /* HHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5984718A6294B00D36691 /* HHAppDelegate.m */; };
+		C0C5984D18A62A1100D36691 /* HHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5984C18A62A1100D36691 /* HHViewController.m */; };
+		C0C5985018A62BBA00D36691 /* HHIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5984F18A62BBA00D36691 /* HHIndicatorView.m */; };
+		C0C5985818A62FBC00D36691 /* indicator_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C5985118A62FBC00D36691 /* indicator_bg@2x.png */; };
+		C0C5985918A62FBC00D36691 /* indicator_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C5985218A62FBC00D36691 /* indicator_setting@2x.png */; };
+		C0C5985A18A62FBC00D36691 /* indicator_autumn_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C5985318A62FBC00D36691 /* indicator_autumn_h@2x.png */; };
+		C0C5985B18A62FBC00D36691 /* indicator_spring_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C5985418A62FBC00D36691 /* indicator_spring_h@2x.png */; };
+		C0C5985C18A62FBC00D36691 /* indicator_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C5985518A62FBC00D36691 /* indicator_start@2x.png */; };
+		C0C5985D18A62FBC00D36691 /* indicator_summer_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C5985618A62FBC00D36691 /* indicator_summer_h@2x.png */; };
+		C0C5985E18A62FBC00D36691 /* indicator_winter_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C5985718A62FBC00D36691 /* indicator_winter_h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +74,19 @@
 		3D9CDAAA1629EA9100B95512 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
 		3D9CDAAD1629EA9100B95512 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMViewController_iPhone.xib; sourceTree = "<group>"; };
 		3D9CDAB01629EA9100B95512 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMViewController_iPad.xib; sourceTree = "<group>"; };
+		C0C5984618A6294B00D36691 /* HHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAppDelegate.h; sourceTree = "<group>"; };
+		C0C5984718A6294B00D36691 /* HHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAppDelegate.m; sourceTree = "<group>"; };
+		C0C5984B18A62A1100D36691 /* HHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHViewController.h; sourceTree = "<group>"; };
+		C0C5984C18A62A1100D36691 /* HHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHViewController.m; sourceTree = "<group>"; };
+		C0C5984E18A62BBA00D36691 /* HHIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHIndicatorView.h; sourceTree = "<group>"; };
+		C0C5984F18A62BBA00D36691 /* HHIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHIndicatorView.m; sourceTree = "<group>"; };
+		C0C5985118A62FBC00D36691 /* indicator_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator_bg@2x.png"; sourceTree = "<group>"; };
+		C0C5985218A62FBC00D36691 /* indicator_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator_setting@2x.png"; sourceTree = "<group>"; };
+		C0C5985318A62FBC00D36691 /* indicator_autumn_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator_autumn_h@2x.png"; sourceTree = "<group>"; };
+		C0C5985418A62FBC00D36691 /* indicator_spring_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator_spring_h@2x.png"; sourceTree = "<group>"; };
+		C0C5985518A62FBC00D36691 /* indicator_start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator_start@2x.png"; sourceTree = "<group>"; };
+		C0C5985618A62FBC00D36691 /* indicator_summer_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator_summer_h@2x.png"; sourceTree = "<group>"; };
+		C0C5985718A62FBC00D36691 /* indicator_winter_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator_winter_h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +142,12 @@
 				3D9CDA981629EA9100B95512 /* Supporting Files */,
 				3D8496DC162A73A5001ECE62 /* SMPageControl.h */,
 				3D8496DD162A73A5001ECE62 /* SMPageControl.m */,
+				C0C5984618A6294B00D36691 /* HHAppDelegate.h */,
+				C0C5984718A6294B00D36691 /* HHAppDelegate.m */,
+				C0C5984B18A62A1100D36691 /* HHViewController.h */,
+				C0C5984C18A62A1100D36691 /* HHViewController.m */,
+				C0C5984E18A62BBA00D36691 /* HHIndicatorView.h */,
+				C0C5984F18A62BBA00D36691 /* HHIndicatorView.m */,
 			);
 			path = SMPageControl;
 			sourceTree = "<group>";
@@ -126,6 +155,13 @@
 		3D9CDA981629EA9100B95512 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0C5985118A62FBC00D36691 /* indicator_bg@2x.png */,
+				C0C5985218A62FBC00D36691 /* indicator_setting@2x.png */,
+				C0C5985318A62FBC00D36691 /* indicator_autumn_h@2x.png */,
+				C0C5985418A62FBC00D36691 /* indicator_spring_h@2x.png */,
+				C0C5985518A62FBC00D36691 /* indicator_start@2x.png */,
+				C0C5985618A62FBC00D36691 /* indicator_summer_h@2x.png */,
+				C0C5985718A62FBC00D36691 /* indicator_winter_h@2x.png */,
 				3D25A7FC162E7376007CD2A8 /* appleMask.png */,
 				3D25A7FD162E7376007CD2A8 /* appleMask@2x.png */,
 				3D25A7FE162E7376007CD2A8 /* searchMask.png */,
@@ -201,9 +237,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9CDA9C1629EA9100B95512 /* InfoPlist.strings in Resources */,
+				C0C5985918A62FBC00D36691 /* indicator_setting@2x.png in Resources */,
 				3D9CDAA41629EA9100B95512 /* Default.png in Resources */,
 				3D9CDAA61629EA9100B95512 /* Default@2x.png in Resources */,
+				C0C5985B18A62FBC00D36691 /* indicator_spring_h@2x.png in Resources */,
+				C0C5985818A62FBC00D36691 /* indicator_bg@2x.png in Resources */,
 				3D9CDAA81629EA9100B95512 /* Default-568h@2x.png in Resources */,
+				C0C5985C18A62FBC00D36691 /* indicator_start@2x.png in Resources */,
 				3D9CDAAE1629EA9100B95512 /* SMViewController_iPhone.xib in Resources */,
 				3D9CDAB11629EA9100B95512 /* SMViewController_iPad.xib in Resources */,
 				3D8496CA162A3D6E001ECE62 /* currentPageDot@2x.png in Resources */,
@@ -213,9 +253,12 @@
 				3D8496D2162A4849001ECE62 /* currentSearchDot@2x.png in Resources */,
 				3D8496D3162A4849001ECE62 /* searchDot@2x.png in Resources */,
 				3D8496D7162A4911001ECE62 /* retro_intro@2x.png in Resources */,
+				C0C5985A18A62FBC00D36691 /* indicator_autumn_h@2x.png in Resources */,
+				C0C5985E18A62FBC00D36691 /* indicator_winter_h@2x.png in Resources */,
 				3D25A800162E7376007CD2A8 /* appleMask.png in Resources */,
 				3D25A801162E7376007CD2A8 /* appleMask@2x.png in Resources */,
 				3D25A802162E7376007CD2A8 /* searchMask.png in Resources */,
+				C0C5985D18A62FBC00D36691 /* indicator_summer_h@2x.png in Resources */,
 				3D25A803162E7376007CD2A8 /* searchMask@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C5984D18A62A1100D36691 /* HHViewController.m in Sources */,
 				3D9CDA9E1629EA9100B95512 /* main.m in Sources */,
+				C0C5984818A6294B00D36691 /* HHAppDelegate.m in Sources */,
 				3D9CDAA21629EA9100B95512 /* SMAppDelegate.m in Sources */,
 				3D9CDAAB1629EA9100B95512 /* SMViewController.m in Sources */,
 				3D8496DE162A73A5001ECE62 /* SMPageControl.m in Sources */,
+				C0C5985018A62BBA00D36691 /* HHIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
